@@ -18,9 +18,10 @@ public class TodoApplication {
         service.loadChores();
 //        service.addChore("Testing write on database feature", LocalDate.now());
         service.addChore("Feriado", LocalDate.now().plusDays(1));
-//        service.addChore("Chore #02", LocalDate.now().plusDays(8));
+        service.addChore("Chore #01", LocalDate.now().plusDays(5));
 //        service.toggleChore("Chore #03", LocalDate.now().plusDays(1));
-        System.out.println("Tamanho da lista de chores: " + service.getChores().size());
+//        System.out.println("Tamanho da lista de chores: " + service.getChores().size());
+//        System.out.println("Descrição da chore: " + service.getChores().get(0).getDescription());
 //        service.deleteChore("Chore #02", LocalDate.now().plusDays(8));
 //        service.saveChores();
     }
